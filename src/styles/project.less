@@ -1,0 +1,25 @@
+.project__tags {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.6rem;
+  margin: 0.5em 0;
+  width: 275px;
+}
+
+.project__tag {
+  padding: 0.4em 0.8em;
+  border-radius: var(--border-radius);
+  background-color: var(--primary-color);
+  color: var(--bg-color);
+}
+
+@media screen and (min-width: 760px) {
+  .project__tags {
+    width: 325px;
+    font-size: 0.8rem;
+  }
+
+  .project {
+    margin-left: 2em;
+  }
+}
