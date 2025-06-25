@@ -1,6 +1,7 @@
 
 
-import './styles/styles.less';
+import './less/styles.less';
+
 
 
 const toggleTheme = document.getElementById('toggle-theme');
